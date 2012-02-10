@@ -1,16 +1,8 @@
-@ SAY_HI_AGAIN
-> Hi, again.
-
 @ START
 >An army of zombies is approaching your house. What will you do?
 - B - LEAVE FROM THE BACK DOOR - BACK_DOOR
 - F - LEAVE FROM THE FRONT DOOR - FRONT_DOOR
 - D - STAY AND DEFEND YOUR HOUSE - DEFEND
-
-@ SAY_HI
-> Hi!
-= SAY_HI_AGAIN
-> Back to SAY_HI
 
 @ BACK_DOOR
 > You exited your house from the back door. What will you do?
