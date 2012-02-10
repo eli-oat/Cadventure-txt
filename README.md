@@ -49,4 +49,4 @@ You can fire your favorite text editor up and start writing your text adventure 
     gcc Cadventure-txt.c -o cadventure
     ./cadventure adventure.story
 
-I only wrote this in a few hours, please excuse the ugliness.
+I only wrote this in a few hours, please excuse the code ugliness.
