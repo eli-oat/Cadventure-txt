@@ -42,7 +42,6 @@ This and any other line that doesn't start with a command symbol is a comment.
 @ DIE
 > You die.
 ```
-
 Indentation is up to the user. '@' are function definitions, '>' are print statements, '=' are function calls, and '-' are option lists. An option list looks like this:
 - [KEY] - [DESCRIPTION] - [FUNCTION NAME]
 You can fire your favorite text editor up and start writing your text adventure game. Then, assuming you save your story as adventure.story:
