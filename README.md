@@ -1,5 +1,6 @@
 # Cadventure-txt
 **Simple text adventure engine in C**
+
 This is a small, quick and dirty program written in a single evening for [/r/dailyprogrammer's challenge #2](http://www.reddit.com/r/dailyprogrammer/comments/pjbuj/intermediate_challenge_2/)
 
 Cadventure uses its own simple scripting language. Here's a very simple example story:
@@ -43,6 +44,7 @@ Cadventure uses its own simple scripting language. Here's a very simple example 
 
 Indentation is up to the user. '@' are function definitions, '>' are print statements, '=' are function calls, and '-' are option lists. An option list looks like this:
 - [KEY] - [DESCRIPTION] - [FUNCTION NAME]
+
 You can fire your favorite text editor up and start writing your text adventure game. Then, assuming you save your story as adventure.story:
     gcc Cadventure-txt.c -o cadventure
     ./cadventure adventure.story
