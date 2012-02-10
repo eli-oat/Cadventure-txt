@@ -4,6 +4,7 @@
 This is a small, quick and dirty program written in a single evening for [/r/dailyprogrammer's challenge #2](http://www.reddit.com/r/dailyprogrammer/comments/pjbuj/intermediate_challenge_2/)
 
 Cadventure uses its own simple scripting language. Here's a very simple example story:
+
     @ START
     >An army of zombies is approaching your house. What will you do?
     - B - LEAVE FROM THE BACK DOOR - BACK_DOOR
