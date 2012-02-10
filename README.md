@@ -48,3 +48,5 @@ Indentation is up to the user. '@' are function definitions, '>' are print state
 You can fire your favorite text editor up and start writing your text adventure game. Then, assuming you save your story as adventure.story:
     gcc Cadventure-txt.c -o cadventure
     ./cadventure adventure.story
+
+I only wrote this in a few hours, please excuse the ugliness.
