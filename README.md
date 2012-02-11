@@ -45,7 +45,7 @@ Cadventure uses its own simple scripting language. Here's a very simple example 
     @ DIE
     > You die.
 
-Indentation is up to the user. '@' are function definitions, '>' are print statements, '=' are function calls, and '-' are option lists. An option list looks like this:
+Indentation is up to the user. '@' are function definitions, '>' are print statements, '=' are function calls, and '-' are option lists. Any line that does not start with one of these characters is considered a comment. An option list looks like this:
 - [KEY] - [DESCRIPTION] - [FUNCTION NAME]
 
 You can fire your favorite text editor up and start writing your text adventure game. Then, assuming you save your story as adventure.story:
