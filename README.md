@@ -1,7 +1,9 @@
 # Cadventure-txt
 **Simple text adventure engine in C**
 
-This is a small, quick and dirty program written in a single evening for [/r/dailyprogrammer's challenge #2](http://www.reddit.com/r/dailyprogrammer/comments/pjbuj/intermediate_challenge_2/)
+This is a small, quick and dirty program written in a single evening for [/r/dailyprogrammer's challenge #2](http://www.reddit.com/r/dailyprogrammer/comments/pjbuj/intermediate_challenge_2/). You write simple text-adventure stories in Cadventure's (very) simple scripting language and Cadventure runs your story.
+
+[DanBurton](https://github.com/DanBurton) has written [a parser in Haskell](https://github.com/DanBurton/hs-adventure-txt).
 
 Cadventure uses its own simple scripting language. Here's a very simple example story:
 
@@ -50,4 +52,4 @@ You can fire your favorite text editor up and start writing your text adventure 
     gcc Cadventure-txt.c -o cadventure
     ./cadventure adventure.story
 
-I only wrote this in a few hours, please excuse the code ugliness.
+I only wrote this in a few hours, please excuse the code ugliness. Patches are always welcome :)!
