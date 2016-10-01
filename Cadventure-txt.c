@@ -66,12 +66,12 @@ struct Option {
   char key, name[500];
 } options[500];
 
-inline bool is_letter(char c) {
+bool is_letter(char c) {
   if ((c>='a' && c<='z') || (c>='A' && c<='Z') || c=='_') return true;
   else return false;
 }
 
-inline bool is_command(char c) {
+bool is_command(char c) {
   return (c=='=' || c=='@' || c=='>' || c=='-');
 }
 
@@ -88,7 +88,10 @@ void init() {
       j++;
       while(story[i][j]==' ') j++;
       k = 0;
-      while(is_letter(story[i][j+k])) name[k++] = story[i][j+k];
+      while(is_letter(story[i][j+k])) {
+        name[k] = story[i][j+k];
+        k++;
+      }
       if(k==0) error("Expected function name after '='", i+1);
       name[k] = 0;
       add_function(name, i);
@@ -149,7 +152,10 @@ void play(int func) {
           j++;
           while(story[i][j]==' ') j++;
           l = 0;
-          while(is_letter(story[i][j+l]) || story[i][j+l]==' ') name[l++] = story[i][j+l];
+          while(is_letter(story[i][j+l]) || story[i][j+l]==' ') {
+            name[l] = story[i][j+l];
+            l++;
+          }
           name[l] = 0;
           strcpy(options[O].name, name);
           j = j+l;
